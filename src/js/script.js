@@ -133,3 +133,6 @@ btn_start.addEventListener("click", startTimer);
 
 import StyleMode from "./modules/StyleMode.js";
 StyleMode()
+
+
+export { formatTime };

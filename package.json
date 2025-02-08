@@ -3,12 +3,14 @@
   "version": "0.0.1",
   "description": "Pomodorus é um site opensource, que permite administrar o tempo por meio dos recursos oferecidos pela técnica pomodoro",
   "main": "script.js",
+  "engines": {
+    "node": ">=10.0.0"
+  },
   "devDependencies": {
+    "chai": "^4.4.1",
     "mocha": "^11.1.0"
   },
-  "scripts": {
-    "test": "mocha"
-  },
+  "type": "module",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/devJunr/pomodorus.git"
