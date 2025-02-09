@@ -1,5 +1,5 @@
 
-const formatTime = (minutes, seconds) => {
+function formatTime(minutes, seconds) {
     try {
       let minutes_ok = minutes >= 0 && minutes <= 99;
       let seconds_ok = seconds >=0 && seconds <= 59;
@@ -7,9 +7,9 @@ const formatTime = (minutes, seconds) => {
         throw new Error("Bad parameter. Out of range."); 
       }
     } catch (err) {
-        alert( "Range Error: " + err.message );
+        console.warn( "Range Error: " + err.message );
     }
     return `${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
-};
+}
 
 export { formatTime };
