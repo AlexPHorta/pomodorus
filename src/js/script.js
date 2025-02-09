@@ -17,10 +17,10 @@ let timer_ativo = false;
 let modo_pausa = false;
 let timer_interval;
 
-const formatTime = (minutes, seconds) => {
-    return `
-    ${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
-};
+// const formatTime = (minutes, seconds) => {
+//     return `
+//     ${String(minutes).padStart(2, "0")}:${String(seconds).padStart(2, "0")}`;
+// };
 
 const toggleConfigPanel = () => {
     config_container.style.display =
@@ -130,9 +130,3 @@ button_save.addEventListener("click", validateAndSaveConfig);
 btn_pause.addEventListener("click", pauseTimer);
 btn_start.addEventListener("click", startTimer);
 
-
-import StyleMode from "./modules/StyleMode.js";
-StyleMode()
-
-
-export { formatTime };

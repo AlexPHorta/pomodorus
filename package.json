@@ -10,6 +10,9 @@
     "chai": "^4.4.1",
     "mocha": "^11.1.0"
   },
+  "mocha": {
+    "full-trace": true
+  },
   "type": "module",
   "repository": {
     "type": "git",
