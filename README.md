@@ -16,6 +16,7 @@ Caso use vscode, recomendo a extensão: [Live Preview - Microsoft](https://marke
 
 ```
 Git (Para colaboração)
+Npm (Gerenciamento de pacotes e testes)
 Navegador (Para executar o projeto) - Versão mais atual
 ```
 
@@ -27,10 +28,20 @@ Siga os passos abaixo para contribuir com este projeto:
 Abra seu terminal e execute:
 
 ```bash
-git clone https://github.com/devJunr/pomodorus
+$ git clone https://github.com/devJunr/pomodorus
+```
+#### 2. Instale as dependências
+
+```bash
+$ npm install
 ```
 
-#### 2. Crie uma branch para sua feature ou correção
+#### 3. Execute os testes
+
+```bash
+$ npm test
+```
+#### 4. Crie uma branch para sua feature ou correção
 
 Crie uma branch para isolar suas alterações:
 
@@ -38,13 +49,13 @@ Crie uma branch para isolar suas alterações:
 git checkout -b minha-nova-feature
 ```
 
-#### 3. Realize suas alterações e commits
+#### 5. Realize suas alterações e commits
 Depois de fazer as alterações necessárias, execute:
 ```bash
 git push origin minha-nova-feature
 ```
 
-#### 4. Abra uma PR no GitHub
+#### 6. Abra uma PR no GitHub
 Envie uma PR com suas modificações
 
 ## 🛠️ Construído com
